@@ -25,6 +25,11 @@ function createOnduty(){
 }
 
 function createTable () {
+    let div = document.createElement("div");
+    div.setAttribute("id","duty");
+    let h3 = document.createElement("h2");
+    h3.innerText = document.getElementById("onduty_name").value;
+    div.appendChild(h3);
     let el = document.createElement("table");
     el.style.margin = "auto";
     el.setAttribute("border","1px");
@@ -45,8 +50,8 @@ function createTable () {
         tr.appendChild(td);
     }
     el.appendChild(tr);
-    
-    return el;
+    div.appendChild(el);
+    return div;
 }
 
 //洗牌算法
