@@ -29,3 +29,12 @@ body {
     height: 25px;
     background-color: blueviolet;
 }
+
+.warn {
+    color: brown;
+}
+
+table {
+    margin: auto;
+    padding: 50px;
+}
