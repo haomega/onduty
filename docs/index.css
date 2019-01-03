@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+#myhead {
+    text-align: center;
+}
+
+#icon {
+    width: 200px;
+    text-align: center;
+    border-radius: 200px;
+    background-color: aqua;
+}
+.inputfrom {
+    margin-top: 50px;
+    height: 50px;
+}
+
+.inputfrom input {
+    border: 10px;
+    border-radius: 200px;
+    height: 20px;
+}
+
+.inputfrom button {
+    border: 0;
+    border-radius: 200px;
+    height: 25px;
+    background-color: blueviolet;
+}
+
+.warn {
+    color: brown;
+}
+
+table {
+    margin: auto;
+    padding: 10px;
+    background-color: antiquewhite;
+}

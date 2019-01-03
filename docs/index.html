@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+
+        <div id = "myhead" >
+            <img id = "icon" src="./images/broom.png">
+        </div>
+
+        <!-- 按钮和输入框在同一行 -->
+        <div class="inputfrom">
+            <input name="ondyty_name" id="onduty_name" type="text" placeholder="输入值日表名称">
+            <button onclick="createOnduty()">Create</button>
+            <p id="warn" class="warn" style="visibility:hidden">请输入值日表名称!!</p>
+        </div>
+
+        <div id = "ondutys">
+            <h2>Create a Random onDuty for your company!</h2>
+        </div>
+    </body> 
+</html>
