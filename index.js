@@ -65,3 +65,5 @@ function getDuty(duty) {
     }
     return arr;
 }
+
+//维护数组js
